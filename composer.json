@@ -1,0 +1,23 @@
+{
+    "name": "user/bienes-raices-php_fin",
+    "description": "Creando un proyecto con PDO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bryan B",
+            "email": "brayhan3b1745@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "2.7",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Model\\":"./models",
+            "MVC\\":"./",
+            "Controllers\\":"./controllers"
+        }
+    }
+}
